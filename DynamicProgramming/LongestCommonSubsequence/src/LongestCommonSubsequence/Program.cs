@@ -18,7 +18,7 @@ namespace LongestCommonSubsequence
             char[] colSequence = new char[] { 'A','C','C','G','T' }; 
             char[] rowSequence = new char[] { 'C', 'A', 'G', 'T' };
 
-            GetLCS(colSequence, rowSequence);
+            Console.WriteLine(GetLCS(colSequence, rowSequence));
         }
 
         public static string GetLCS(char[] colSequence, char[] rowSequence)
